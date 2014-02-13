@@ -1,0 +1,28 @@
+{
+  "name": "droopy-http",
+  "version": "0.0.1",
+  "description": "Wrapper around 'request' module to promisify and add simple cache",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "./HttpService",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DroopyTersen/droopy-http.git"
+  },
+  "keywords": [
+    "droopy"
+  ],
+  "author": "Andrew Petersen",
+  "bugs": {
+    "url": "https://github.com/DroopyTersen/droopy-http/issues"
+  },
+  "homepage": "https://github.com/DroopyTersen/droopy-http",
+  "dependencies": {
+    "q": "~1.0.0",
+    "request": "~2.33.0"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
